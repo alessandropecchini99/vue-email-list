@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+/* [v-cloak] > * {
+    display: none;
+}
+[v-cloak]::before {
+    content: "Loading...";
+    opacity: 0.5;
+} */
