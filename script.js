@@ -19,4 +19,4 @@ const app = Vue.createApp({
 
 app.mount(`#app`);
 
-let request = axios.get(`https://flynn.boolean.careers/exercises/api/random/mail`).then((server) => console.log(`Ecco una mail randomica: ` + server.data.response));
+let request = axios.get(`https://flynn.boolean.careers/exercises/api/random/mail`).then((server) => console.log(`Una mail randomica: ` + server.data.response));
